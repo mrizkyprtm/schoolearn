@@ -1,5 +1,14 @@
 @import "tailwindcss";
 
+@theme {
+  --color-scl-sky: #c3ebfa;
+  --color-scl-skyLight: ##edf9fd;
+  --color-scl-purple: #cfceff;
+  --color-scl-purpleLight: #f1f0ff;
+  --color-scl-yellow: #fae27c;
+  --color-scl-yellowLight: #fefc38;
+}
+
 body {
   font-family: 'Inter', sans-serif;
   font-optical-sizing: auto;
