@@ -1,5 +1,6 @@
 <script setup>
 import MenuItems from '@/components/MenuItems.vue'
+import NavBar from '@/components/NavBar.vue'
 import { RouterLink } from 'vue-router'
 </script>
 
@@ -14,7 +15,8 @@ import { RouterLink } from 'vue-router'
       <MenuItems />
     </div>
     <!-- content -->
-    <div class="w-[86%] bg-blue-200 md:w-[92%] lg:w-[84%] xl:w-[86%]">
+    <div class="w-[86%] overflow-scroll bg-[#f7f8fa] md:w-[92%] lg:w-[84%] xl:w-[86%]">
+      <NavBar />
       <slot />
     </div>
   </div>
