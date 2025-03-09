@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import AttendanceChart from '@/components/AttendanceChart.vue'
 import CountChart from '@/components/CountChart.vue'
+import FinanceChart from '@/components/FinanceChart.vue'
 import UserCard from '@/components/UserCard.vue'
 import DashboardLayout from '@/layouts/DashboardLayout.vue'
 </script>
@@ -25,6 +26,10 @@ import DashboardLayout from '@/layouts/DashboardLayout.vue'
           <div class="min-h-[360px] w-full lg:w-2/3">
             <AttendanceChart />
           </div>
+        </div>
+        <!-- bottom -->
+        <div class="min-h-[450px] w-full">
+          <FinanceChart />
         </div>
       </div>
       <!-- right -->

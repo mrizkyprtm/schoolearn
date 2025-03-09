@@ -48,7 +48,7 @@ const options = {
 <template>
   <div class="h-full w-full rounded-2xl bg-white p-4">
     <div class="flex items-center justify-between">
-      <h1 class="text-lg font-semibold">Attendants</h1>
+      <h1 class="text-lg font-semibold">Attendance</h1>
       <img src="/icon/moreDark.png" alt="more" class="size-5" />
     </div>
     <!-- chart -->
