@@ -46,7 +46,7 @@ const chartOptions = ref({
 </script>
 
 <template>
-  <div class="w-full rounded-2xl bg-white p-4">
+  <div class="h-full w-full rounded-2xl bg-white p-4">
     <!-- title -->
     <div class="flex items-center justify-between">
       <h1 class="text-lg font-semibold">Students</h1>

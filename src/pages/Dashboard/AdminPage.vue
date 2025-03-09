@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import AttendanceChart from '@/components/AttendanceChart.vue'
 import CountChart from '@/components/CountChart.vue'
 import UserCard from '@/components/UserCard.vue'
 import DashboardLayout from '@/layouts/DashboardLayout.vue'
@@ -18,10 +19,12 @@ import DashboardLayout from '@/layouts/DashboardLayout.vue'
         <!-- middle chart -->
         <div class="flex flex-col gap-4 lg:flex-row">
           <!-- count chart -->
-          <div class="w-full lg:w-1/3">
+          <div class="min-h-[360px] w-full lg:w-1/3">
             <CountChart />
           </div>
-          <div class="w-full lg:w-2/3"></div>
+          <div class="min-h-[360px] w-full lg:w-2/3">
+            <AttendanceChart />
+          </div>
         </div>
       </div>
       <!-- right -->
