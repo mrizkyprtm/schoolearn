@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import AnnouncementsCard from '@/components/AnnouncementsCard.vue'
 import AttendanceChart from '@/components/AttendanceChart.vue'
 import CountChart from '@/components/CountChart.vue'
 import EventCalendar from '@/components/EventCalendar.vue'
@@ -34,8 +35,9 @@ import DashboardLayout from '@/layouts/DashboardLayout.vue'
         </div>
       </div>
       <!-- right -->
-      <div class="w-full lg:w-1/3">
+      <div class="flex w-full flex-col gap-8 lg:w-1/3">
         <EventCalendar />
+        <AnnouncementsCard />
       </div>
     </div>
   </DashboardLayout>
