@@ -1,12 +1,12 @@
 @import "tailwindcss";
 
 @theme {
-  --color-scl-sky: #c3ebfa;
-  --color-scl-skyLight: #edf9fd;
-  --color-scl-purple: #cfceff;
-  --color-scl-purpleLight: #f1f0ff;
-  --color-scl-yellow: #fae27c;
-  --color-scl-yellowLight: #fefc38;
+  --color-scl-sky: #C3EBFA;
+  --color-scl-skyLight: #EDF9FD;
+  --color-scl-purple: #CFCEFF;
+  --color-scl-purpleLight: #F1F0FF;
+  --color-scl-yellow: #FAE27C;
+  --color-scl-yellowLight: #FEFCE8;
 }
 
 body {
