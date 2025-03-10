@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import AttendanceChart from '@/components/AttendanceChart.vue'
 import CountChart from '@/components/CountChart.vue'
+import EventCalendar from '@/components/EventCalendar.vue'
 import FinanceChart from '@/components/FinanceChart.vue'
 import UserCard from '@/components/UserCard.vue'
 import DashboardLayout from '@/layouts/DashboardLayout.vue'
@@ -33,7 +34,9 @@ import DashboardLayout from '@/layouts/DashboardLayout.vue'
         </div>
       </div>
       <!-- right -->
-      <div class="w-full lg:w-1/3">right content</div>
+      <div class="w-full lg:w-1/3">
+        <EventCalendar />
+      </div>
     </div>
   </DashboardLayout>
 </template>
