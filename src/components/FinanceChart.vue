@@ -67,7 +67,7 @@ const data = {
     <div id="chart" class="h-full w-full">
       <apexchart
         type="line"
-        height="350"
+        height="400"
         :options="data.chartOptions"
         :series="data.series"
       ></apexchart>

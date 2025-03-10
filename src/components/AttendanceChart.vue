@@ -12,7 +12,7 @@ const options = {
   ],
   chart: {
     type: 'bar',
-    height: 350,
+    height: '350',
   },
   plotOptions: {
     bar: {
@@ -52,10 +52,10 @@ const options = {
       <img src="/icon/moreDark.png" alt="more" class="size-5" />
     </div>
     <!-- chart -->
-    <div id="chart" class="w-full">
+    <div id="chart" class="h-full w-full">
       <apexchart
         width="100%"
-        height="auto"
+        height="350"
         type="bar"
         :options="options"
         :series="options.series"

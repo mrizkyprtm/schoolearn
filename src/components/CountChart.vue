@@ -5,7 +5,7 @@ const series = ref([55, 45])
 const chartOptions = ref({
   chart: {
     type: 'radialBar',
-    parentHeightOffset: 100,
+    height: '400',
   },
   fill: {
     colors: ['#c3ebfa', '#fae27c'],
@@ -23,13 +23,6 @@ const chartOptions = ref({
         strokeWidth: '97%',
         opacity: 1,
         margin: 3,
-        dropShadow: {
-          enabled: false,
-          top: 0,
-          left: 0,
-          blur: 3,
-          opacity: 0.5,
-        },
       },
       dataLabels: {
         name: {
@@ -53,8 +46,14 @@ const chartOptions = ref({
       <img src="/icon/moreDark.png" alt="more" class="size-5" />
     </div>
     <!-- chart -->
-    <div id="chart" class="w-full">
-      <apexchart width="100%" type="radialBar" :options="chartOptions" :series="series"></apexchart>
+    <div id="chart" class="h-auto w-full">
+      <apexchart
+        width="100%"
+        height="400"
+        type="radialBar"
+        :options="chartOptions"
+        :series="series"
+      ></apexchart>
     </div>
     <!-- bottom -->
     <div class="flex justify-center gap-16">
